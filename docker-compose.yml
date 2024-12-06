@@ -2,7 +2,7 @@ services:
   # Service Apache et PHP
   apache:
     build: apache  # Utilisation d'un dockerfile pour le service Apache
-    container_name: apache   # nom du conteneur
+    container_name: apache_AhOuais  # nom du conteneur
     restart: always # redémarrage automatique
     ports: 
       - "80:80" # On utilise le port 80 de l'extérieur vers le port 80 du container
@@ -15,13 +15,13 @@ services:
   #Service MariaDB
   mariadb:
     image: mariadb:latest   #image officielle mariadb
-    container_name: mariadb
+    container_name: mariadb_AhOuais
     restart: always
     ports:
       - "3306:3306"
     environment:              # on set les informations par défaut
       MYSQL_ROOT_PASSWORD: "BatmanEgy"
-      MYSQL_DATABASE: "AhOuoisdb"
+      MYSQL_DATABASE: "AhOuaisdb"
       MYSQL_USER: "AhOuaisuser"
       MYSQL_PASSWORD: "BatmanEgy"
     volumes:
@@ -30,3 +30,7 @@ services:
   # liste des volumes
 volumes:
   mysql:
+
+
+
+

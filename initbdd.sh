@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo docker exec mariadb /root/restore.sh
+docker exec mariadb_AhOuais /root/restore.sh
