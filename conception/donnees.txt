@@ -1,0 +1,5 @@
+AirBnB est une application de gestion de location courte durée de chambres.
+Les fonctionnalités souhaités sont les suivantes : 
+- Le client peut louer une chambre à la journée.
+- Le chef d'entreprise peut créer/modifier/supprimer des chambres, des catégories, des clients, des commerciaux et des locations.
+- L'annonceur peut créer/modifier/supprimer des locations.
